@@ -123,7 +123,15 @@ height: fit-content;
     position: absolute;
     top: 140px;
 }
-
+.btn-getstarted{
+  background-color: #a10003;
+}
+.btn-getstarted:hover{
+  background-color: #ff0004;
+  box-shadow:
+    0 0 10px rgb(255, 0, 0),
+    0 8px 10px rgb(86, 1, 1);
+}
 .hero {
   padding: 0 8em;
   min-height: 100vh;
